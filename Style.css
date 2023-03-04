@@ -1,0 +1,190 @@
+        form {
+            padding: 10px;
+        }
+        
+        article {
+            margin: 5px;
+            padding: 5px;
+            font-size: large;
+        }
+        
+        label {
+            padding: 5px;
+            padding-right: 5px;
+        }
+        
+        button {
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .textlabel {
+            width: 5em;
+            float: left;
+        }
+        
+        .textinput {
+            width: 15em;
+            float: left;
+        }
+        
+        h3 {
+            display: inline;
+            left: 10px;
+            color: white;
+            border-color: rgb(107, 109, 109);
+            background-color: rgb(112, 146, 190);
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .formularBody {
+            border-color: transparent;
+            border-style: inset;
+            display:inline-block;
+            vertical-align: middle;
+            background-color: rgb(252, 252, 252);
+            box-shadow: 0px 0px 7px 0px rgb(179, 177, 177);
+            width: auto;
+            text-align: left;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            border-radius: 15px;
+        }
+
+        .phpTable {
+            border: 0px;
+            border-style:solid;
+            border-spacing: 17px;
+            padding: 10px;
+            text-align: left;
+        }    
+
+        body {
+            background-color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        html{
+            background-color: white;
+        }
+        
+        .header{
+            text-align: left;
+            background-color: rgb(216, 231, 252);
+            border-bottom: 1px;
+            margin: -20;
+            border-color: black;
+            border-width: 10px;
+            border-style: none;
+            border-top: 0;
+            border-left: 100px;
+            border-right: 5cm;
+            box-shadow: 0px 1px 5px 0px rgb(179, 177, 177);
+            /* border-radius: 30px; */
+            /* border-end-end-radius: 30px; */
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        head{
+            background-color: brown;
+        }
+        
+        h1 {
+            font-size: xx-large;
+        }
+        
+        button {
+            float:right;
+            background-color: rgb(112, 146, 190);
+            color: white;
+            border-radius: 5px;
+            border-width: 0px;
+        }
+        
+        .sendButton {
+            float: right;
+            height: 30px;
+            width: 100px;
+            background-color: rgb(112, 146, 190);
+            color: white;
+            border-radius: 5px;
+            border-width: 0px;
+            margin: 5px;
+        }
+        
+        button:hover {
+            background-color: rgb(135, 175, 228);
+        }
+        
+        .sendButton:hover {
+            background-color: rgb(135, 175, 228);
+        }
+        
+        button:active {
+            transform: scale(0.9);
+        }
+        
+        .sendButton:active {
+            transform: scale(0.9);
+        }
+        
+        .formularButton {
+            background-color: rgb(112, 146, 190);
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            border-width: 0px;
+            float: left;
+            margin-left: 45%;
+            height: 50px;
+            width: 200px;
+        }
+        
+        .formularButton:active {
+            transform: none;
+        }
+        
+        footer {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            font-size: medium;
+            background-color: rgb(210, 226, 248);
+            color: black;
+            margin-left: -15px;
+        }
+        
+        .linkText {
+            font-size: medium;
+            color: rgb(79, 79, 79);
+            padding: 0px;
+        }
+        
+        .menuText:hover {
+            color: rgb(112, 146, 190);
+        }
+        
+        nav a {
+            text-decoration:none;
+            color: black;
+            font-size: 18px;
+            padding: 26px 35px;
+            display: inline-block;
+            text-align:center;
+            align-self: center;
+            align-items: center;
+            align-content: center;
+            vertical-align: middle;
+        }
+        
+        .logo {
+            float: left;
+            padding: 13px;
+        }

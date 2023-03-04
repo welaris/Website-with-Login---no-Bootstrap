@@ -1,0 +1,5 @@
+Xampp - Apache starten
+
+C:\xampp\htdocs - löschen und mit eigene Datei ersetzen, hauptseite muss Index heißen!
+
+in browser "localhost" eingeben, enter

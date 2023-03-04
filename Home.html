@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<div class="header">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+        <nav><br>
+            <a class="menuText" href="Home.html">Home</a>
+            <a class="menuText" href="Index.html">Login</a>
+			<a class="menuText" href="Test.php">Test</a>
+            <a class="menuText" href="data4.php">Daten anzeigen</a>
+        </nav><br>
+</div>
+</head>
+
+<body>
+    <br><br><br><br><br>
+    <section>
+        <div class="formularBody">
+            <h3>Formular</h3><br><br><br>         
+
+            <form action="SendData.php" method="post">
+
+                <label class="textlabel" for="anrede">Anrede: </label>
+                <input type="radio" id="anrede" name="anrede" value="Frau">
+                <label for="anrede1">Frau</label><br>
+                <input type="radio" id="anrede" name="anrede" value="Herr">
+                <label for="anrede2">Herr</label><br><br>
+                <label class="textlabel" for="vname">Vorname: </label>
+                <input class="textinput" type="text" id="vname" name="vname"><br><br>
+                <label class="textlabel" for="nname">Nachname: </label>
+                <input class="textinput" type="text" id="nname" name="nname"><br><br>
+                <label class="textlabel" for="geburtstag">Geburtstag: </label>
+                <input class="textinput" type="date" id="geburtstag" name="geburtstag"><br><br>
+                <label class="textlabel" for="email">E-Mail: </label>
+                <input class="textinput" type="email" id="email" name="email"><br><br>
+                <label for="interesse">Interesse: </label><br>
+                <input type="checkbox" id="checkbox" name="checkbox[]" value="Spiele">
+                <label for="checkbox1">Spiele</label><br>
+                <input type="checkbox" id="checkbox2" name="checkbox[]" value="Filme">
+                <label for="checkbox2">Filme</label><br>
+                <input type="checkbox" id="checkbox3" name="checkbox[]" value="Bücher">
+                <label for="checkbox3">Bücher</label><br>
+                <input type="checkbox" id="checkbox4" name="checkbox[]" value="Sport">
+                <label for="checkbox4">Sport</label><br><br>
+                <label class="textlabel" for="passwort">Passwort: </label>
+                <input class="textlabel" type="password" id="passwort" name="passwort"><br><br>      
+                <input class="sendButton" type="submit" value="Senden">
+            </form>
+        </div><br><br><br><br><br>
+        <!-- <footer>
+            <p>Author: xy<br>Mail: <a class="linkText" href="mailto:xy">xy</a></p>
+        </footer> -->
+
+</html>

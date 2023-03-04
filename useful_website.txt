@@ -1,0 +1,4 @@
+https://www.tutsmake.com/php-code-for-update-data-in-mysql-database/#:~:text=How%20to%20Fetch%20and%20Update%20Data%20From%20Database,table.%20...%203%203.%20Update%20data%20from%20database
+
+
+https://www.siteground.com/tutorials/php-mysql/display-table-data/
